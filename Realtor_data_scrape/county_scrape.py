@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv('/Users/solomonhufford/Downloads/simplemaps_uscounties_basicv1.73/uscounties.csv')
+data = pd.read_csv('uscounties.csv')
 
 #print(data['county_full'])
 #['state_name']['population']

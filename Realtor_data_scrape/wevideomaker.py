@@ -13,7 +13,7 @@ while True:
     chrome_options = Options()
     # Add any other options you need
 
-    chrome_service = ChromeService(executable_path='/Users/solomonhufford/Downloads/chromedriver-mac-arm64/chromedriver')
+    chrome_service = ChromeService(executable_path='insert your chrome driver')
     driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
     driver.get("https://www.wevideo.com/sign-in")

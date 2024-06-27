@@ -4,7 +4,7 @@ import csv
 import gspread
 from gspread.exceptions import WorksheetNotFound
 from oauth2client.service_account import ServiceAccountCredentials
-genai.configure(api_key="AIzaSyD-8YoHDlZJYTyq_Woqe89MuGHE2SIvecA")
+genai.configure(api_key="insert api key")
 
 #100 developments a day. attach to sheet team in india can qualify.
 # start_data = pd.read_csv('/Users/solomonhufford/Downloads/Untitled spreadsheet - Sheet1.csv')

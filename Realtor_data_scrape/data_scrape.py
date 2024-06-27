@@ -28,7 +28,7 @@ states = sizeable_counties['state_name']
 
 # Google Sheets API setup
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-credentials = ServiceAccountCredentials.from_json_keyfile_name('/Users/solomonhufford/Downloads/marketingproject-406421-d8620450026a.json', scope)
+credentials = ServiceAccountCredentials.from_json_keyfile_name('marketingproject-406421-d8620450026a.json', scope)
 gc = gspread.authorize(credentials)
 
 def generate_leads(county_name, state_order):
